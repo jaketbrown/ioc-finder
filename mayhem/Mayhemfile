@@ -1,0 +1,6 @@
+project: iocfinder
+target: fuzz-ioc
+
+cmds:
+  - cmd: /src/mayhem/fuzz_ioc.py
+    libfuzzer: true
